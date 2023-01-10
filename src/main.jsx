@@ -3,6 +3,7 @@ import { ReactDOM } from "react-dom/client";
 import { BrowserRouter as Router } from 'react-router-dom'
 import { createRoot } from "react-dom/client";
 import App from "./App";
+import { StateContextProvider } from "./context";
 import { ChainId, ThirdwebProvider } from "@thirdweb-dev/react";
 import "./styles/globals.css";
 
@@ -13,7 +14,9 @@ root.render(
   <React.StrictMode>
     <ThirdwebProvider desiredChainId={ ChainId.Goerli }>
       <Router>
-        <App />
+        <StateContextProvider>
+          <App />
+        </StateContextProvider>
       </Router>
     </ThirdwebProvider>
   </React.StrictMode>
