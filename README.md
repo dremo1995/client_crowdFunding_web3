@@ -1,37 +1,18 @@
-## Getting Started
+# Crowdfunding Web3 (Frontend)
 
-Create a project using this example:
+### Description
+This is a Web3 based crowdfunding application where users are able to create campaigns to raise money for personal projects. They can send money to others projects that they believe in as well. The project is running on the Goerli test network 
 
-```bash
-npx thirdweb create --template vite-javascript-starter
-```
+### Technologies
 
-You can start editing the page by modifying `src/main.jsx`. The page auto-updates as you edit the file.
+- JavaScript
+- ReactJS
+- TailwindCSS
+- ThirdWeb
+- Solidity
 
-On `src/index.jsx`, you'll find our `ThirdwebProvider` wrapping your app,
-this is necessary for our [hooks](https://portal.thirdweb.com/react) and
-[UI Components](https://portal.thirdweb.com/ui-components) to work.
+### How to get Started
+1. Each user will need a metamask wallet. To create one go to https://metamask.io/
+2. Once the wallet is created the network will be need to set to the Goerli test network. Go to the metmask chrome extension, go to settings -> networks -> and click on Goerli Network
+3. A user will need to get Goerli Ether and can do so by going to this test faucet https://goerlifaucet.com/ and putting in your wallet address from metamask.
 
-### Deploy to IPFS
-
-Deploy a copy of your application to IPFS using the following command:
-
-```bash
-yarn deploy
-```
-
-## Learn More
-
-To learn more about thirdweb, Vite and React, take a look at the following resources:
-
-- [thirdweb React Documentation](https://docs.thirdweb.com/react) - learn about our React SDK.
-- [thirdweb JavaScript Documentation](https://docs.thirdweb.com/react) - learn about our JavaScript/TypeScript SDK.
-- [thirdweb Portal](https://docs.thirdweb.com/react) - check our guides and development resources.
-- [Vite Documentation](https://vitejs.dev/guide/) - learn about Vite features.
-- [React documentation](https://reactjs.org/) - learn React.
-
-You can check out [the thirdweb GitHub organization](https://github.com/thirdweb-dev) - your feedback and contributions are welcome!
-
-## Join our Discord!
-
-For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
